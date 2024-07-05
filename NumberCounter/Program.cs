@@ -8,8 +8,7 @@ namespace NumberCounter
             string userChoise;
             do
             {
-
-            
+                         
                 Print("Welcome to app");
                 Console.Write("Enter the text: ");
                 string userInput = Console.ReadLine();
@@ -17,9 +16,7 @@ namespace NumberCounter
                 int count = 0;
                 int count1 = 0;
                 int count2 = 0;
-                
-            
-
+                          
                 foreach (char item in userInput)
                 {
                     if (!char.IsLetterOrDigit(item))
@@ -40,7 +37,6 @@ namespace NumberCounter
                 userChoise = Console.ReadLine();
             } 
             while (userChoise is "+");
-
 
             static void Print(string text)
             {
